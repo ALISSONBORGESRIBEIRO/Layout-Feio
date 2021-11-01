@@ -26,6 +26,7 @@ nav .navigation {
 
 nav .navigation li {
 	text-decoration: none;
+	margin-left: 10px;
 }
 
 
@@ -33,6 +34,9 @@ body {
 	background:  url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOe-PVhnf6GTmtsYtX5AtHMNQyg_rychaTlA&usqp=CAU);
 }
 
+.logo {
+	border-radius: 50%;
+}
 
 .Paralax {
 	display: flex;
@@ -109,7 +113,76 @@ body {
   width: 50em;
  }
 
+      /* RODAPE */
+
  footer {
  	background-color: black;
- 	height: 100px;
+ 	height: 250px;
+	display: flex;
+	align-items: center;
  }
+
+ .rodape {
+	 margin-top: -20px;
+	 margin-left: 120px;
+	 display: flex;
+	 flex-direction: column;
+	 animation: animation 2s;
+ }
+
+
+ p {
+	color: aliceblue;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+ li {
+	 margin-top: 10px;
+	 display: flex;
+	 flex-direction: column;
+ }
+
+  a {
+	  color: aliceblue;
+	  margin-bottom: 2px;
+  }
+
+  @keyframes animation {
+
+	from {
+		transform: translateY(20vw);
+	}
+
+	to {
+		transform: translateY();
+	}
+  }
+
+
+ .aluradiv {
+	 display: flex;
+	 align-items: center;
+	 margin-left: 55vw;
+	 animation: animation 2s;
+ }
+
+ .leadlogo {
+	width: 150px;
+	margin-right: 20px;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+ .alura {
+	 width: 80px;
+	 animation: animation 2s;
+ }
+
+ .luiza {
+	 width: 130px;
+	 margin-left: 10px;
+	 animation: animation 2.5s;
+ }
+
+ /*FIM DO RODAPE*/
